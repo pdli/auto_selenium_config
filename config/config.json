@@ -1,0 +1,66 @@
+{
+    "datacenters": {
+        "ATC01": [
+            "Alpharetta",
+            "Suwanee"
+        ],
+        "SPH01": [
+            "Alphaville"
+        ]
+    },
+    "propelServer": "https://www.example.com",
+    "propelAccount": "admin",
+    "propelPassword": "admin",
+    "propelElementTimeout": 180000,
+    "propelValidLoadingTime": 10000,
+    "browser": "chromeHeadless",
+    "categoriesList": [
+        "Administered by me",
+        "Physical Servers",
+        "Service Requests",
+        "Network"
+    ],
+    "catalogItems": [
+        {
+            "Block Storage for Virtual Machines": [
+                "MPC",
+                "Administered by me"
+            ]
+        },
+        {
+            "Block Storage for Physical Servers": [
+                "MPC",
+                "Administered by me",
+                "Physical Servers"
+            ]
+        }
+    ],
+    "qrsServer": "https://www.qrs.com",
+    "qrsUserRoles": [
+        "FW Manager",
+        "ListServer",
+        "STORAGE_MANAGE"
+    ],
+    "directoryWorksServer": "https://www.directoryworks.net/",
+    "roleList": [
+        "ORG_ADMIN",
+        "IDM_ADMIN",
+        "VPC_NETWORK_READONLY",
+    ],
+    "groupList": [
+        "ORG_ADMIN",
+        "IDM_ADMIN",
+        "VPC_NETWORK_READONLY",
+    ],
+    "groupRoleMappingList": {
+        "ORG_ADMIN": [
+            "ORG_ADMIN"
+        ],
+        "IDM_ADMIN": [
+            "IDM_ADMIN"
+        ],
+        "VPC_NETWORK_READONLY": [
+            "VPC_NETWORK_READONLY"
+        ]
+    }
+}

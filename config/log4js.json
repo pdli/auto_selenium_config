@@ -1,0 +1,11 @@
+{
+  "appenders": {
+      "application":  { "type": "file", "filename": "./log/app.log" } ,
+      "console": { "type": "console"}
+  },
+  "categories": {
+      "default":  { "appenders": ["application", "console"], "level": "info" } ,
+      "debug":  { "appenders": ["application", "console"], "level": "debug" } ,
+      "console":  { "appenders": ["console"], "level": "info"}
+  }
+}

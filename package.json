@@ -1,0 +1,28 @@
+{
+  "name": "propel_config_tool",
+  "version": "2.0.1",
+  "description": "This script is used to extract customer info from QRS, process data, and then create Propel Org URL.",
+  "repository": "https://github.houston.entsvcs.net/VPC-RnD/at_propel_config",
+  "license": "MIT",
+  "main": "propeltool.js",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "log4js": "^2.3.3",
+    "loglevel": "^1.4.1",
+    "node-jen": "^1.0.6",
+    "phantomjs-prebuilt": "^2.1.14",
+    "selenium-webdriver": "^3.3.1",
+    "tmp": "^0.0.31"
+  },
+  "bin": {
+    "propeltool": "propeltool.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "pli <pli@hpe.com>",
+  "devDependencies": {
+    "node-xlsx": "^0.7.4"
+  }
+}
